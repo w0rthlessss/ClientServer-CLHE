@@ -1,0 +1,14 @@
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.exe
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.deps.json
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.runtimeconfig.json
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.pdb
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.AssemblyInfoInputs.cache
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.AssemblyInfo.cs
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.csproj.CoreCompileInputs.cache
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\refint\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.pdb
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.genruntimeconfig.cache
+C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\ref\BrightnessAdjustmentServer.dll

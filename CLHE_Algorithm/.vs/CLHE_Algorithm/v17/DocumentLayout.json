@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81B605FF-AE43-43EA-8CBE-93D9B9CE055F}|CLHE_Algorithm.csproj|c:\\semesterfifth\\courseproject\\clhe_algorithm\\clhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B605FF-AE43-43EA-8CBE-93D9B9CE055F}|CLHE_Algorithm.csproj|solutionrelative:clhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CLHE.cs",
+              "DocumentMoniker": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE.cs",
+              "RelativeDocumentMoniker": "CLHE.cs",
+              "ToolTip": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE.cs",
+              "RelativeToolTip": "CLHE.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAOYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:25:28.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
