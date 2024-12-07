@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H+kF4YfhXOJr4R6P19DNNuIhWtUHXyPx4egEIOnRySM5RcJyHMxOmeZC2G4pEHr6dFHDB3kiCJ5JtrfTE8tViA==",
+  "dgSpecHash": "cJoeNV/4vATO2TMDW/Eo+se7R1sawh7wyFcaBN1hxWHmqw7Jt8i54ns5klyfI5/vgOY0w9lIJF+/BGCyvNiQ9g==",
   "success": true,
-  "projectFilePath": "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\system.drawing.common\\8.0.10\\system.drawing.common.8.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

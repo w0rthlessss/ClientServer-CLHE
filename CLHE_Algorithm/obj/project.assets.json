@@ -134,11 +134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
+      "projectUniqueName": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
       "projectName": "CLHE_Algorithm",
-      "projectPath": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
+      "projectPath": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
       "packagesPath": "C:\\Users\\mrkub\\.nuget\\packages\\",
-      "outputPath": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\obj\\",
+      "outputPath": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

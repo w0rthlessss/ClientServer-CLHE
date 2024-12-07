@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj": {}
+    "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj": {}
   },
   "projects": {
-    "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj": {
+    "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
+        "projectUniqueName": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
         "projectName": "BrightnessAdjustmentServer",
-        "projectPath": "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
+        "projectPath": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\BrightnessAdjustmentServer.csproj",
         "packagesPath": "C:\\Users\\mrkub\\.nuget\\packages\\",
-        "outputPath": "C:\\SemesterFifth\\CourseProject\\BrightnessAdjustmentServer\\obj\\",
+        "outputPath": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

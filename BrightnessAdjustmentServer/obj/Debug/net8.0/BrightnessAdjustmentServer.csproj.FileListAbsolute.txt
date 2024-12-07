@@ -12,3 +12,25 @@ C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\refin
 C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.pdb
 C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.genruntimeconfig.cache
 C:\SemesterFifth\CourseProject\BrightnessAdjustmentServer\obj\Debug\net8.0\ref\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.exe
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.deps.json
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.runtimeconfig.json
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\BrightnessAdjustmentServer.pdb
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\CLHE_Algorithm.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\CLHE_Algorithm.pdb
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.csproj.AssemblyReference.cache
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.AssemblyInfoInputs.cache
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.AssemblyInfo.cs
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.csproj.CoreCompileInputs.cache
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.sourcelink.json
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\Brightne.930EEEAE.Up2Date
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\refint\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.pdb
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\BrightnessAdjustmentServer.genruntimeconfig.cache
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\obj\Debug\net8.0\ref\BrightnessAdjustmentServer.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentServer\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

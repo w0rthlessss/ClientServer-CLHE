@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hrFwkN342B9Zgjm0Z4wyDQGOUtwczx6pjFc8KvXzafCQ252g/itV4ZaXd9v91/YyodZTzBNYYua9btlZHejfLQ==",
+  "dgSpecHash": "TLhajZjCzzAVMPKMbV/Qv/cPvIg3Xd1NxGB8zni7m0Me1Zn20BS2VOSEq/YVT4vzW5CzD8VmnpHFz80Sp6ExJA==",
   "success": true,
-  "projectFilePath": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
+  "projectFilePath": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\CLHE_Algorithm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\mrkub\\.nuget\\packages\\system.drawing.common\\8.0.10\\system.drawing.common.8.0.10.nupkg.sha512"

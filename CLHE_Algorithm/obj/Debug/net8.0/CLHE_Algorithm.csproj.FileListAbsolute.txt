@@ -10,3 +10,16 @@ C:\SemesterFifth\CourseProject\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.dl
 C:\SemesterFifth\CourseProject\CLHE_Algorithm\obj\Debug\net8.0\refint\CLHE_Algorithm.dll
 C:\SemesterFifth\CourseProject\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.pdb
 C:\SemesterFifth\CourseProject\CLHE_Algorithm\obj\Debug\net8.0\ref\CLHE_Algorithm.dll
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\bin\Debug\net8.0\CLHE_Algorithm.deps.json
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\bin\Debug\net8.0\CLHE_Algorithm.dll
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\bin\Debug\net8.0\CLHE_Algorithm.pdb
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.csproj.AssemblyReference.cache
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.AssemblyInfoInputs.cache
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.AssemblyInfo.cs
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.csproj.CoreCompileInputs.cache
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.sourcelink.json
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.dll
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\refint\CLHE_Algorithm.dll
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\CLHE_Algorithm.pdb
+C:\SemesterFifth\ClientServer CLHE\CLHE_Algorithm\obj\Debug\net8.0\ref\CLHE_Algorithm.dll

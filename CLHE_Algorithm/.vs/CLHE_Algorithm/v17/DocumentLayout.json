@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\",
+  "WorkspaceRootPath": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81B605FF-AE43-43EA-8CBE-93D9B9CE055F}|CLHE_Algorithm.csproj|c:\\semesterfifth\\courseproject\\clhe_algorithm\\clhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81B605FF-AE43-43EA-8CBE-93D9B9CE055F}|CLHE_Algorithm.csproj|c:\\semesterfifth\\clientserver clhe\\clhe_algorithm\\clhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81B605FF-AE43-43EA-8CBE-93D9B9CE055F}|CLHE_Algorithm.csproj|solutionrelative:clhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SemesterFifth\\test\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +25,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SemesterFifth\\test\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\test\\Program.cs",
+              "ToolTip": "C:\\SemesterFifth\\test\\Program.cs",
+              "RelativeToolTip": "..\\..\\test\\Program.cs",
+              "ViewState": "AQIAABQCAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:47:30.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CLHE.cs",
-              "DocumentMoniker": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE.cs",
+              "DocumentMoniker": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\CLHE.cs",
               "RelativeDocumentMoniker": "CLHE.cs",
-              "ToolTip": "C:\\SemesterFifth\\CourseProject\\CLHE_Algorithm\\CLHE.cs",
+              "ToolTip": "C:\\SemesterFifth\\ClientServer CLHE\\CLHE_Algorithm\\CLHE.cs",
               "RelativeToolTip": "CLHE.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAAAOYAAAAoAAAA",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAAOYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T15:25:28.687Z",
               "EditorCaption": ""

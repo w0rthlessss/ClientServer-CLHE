@@ -49,7 +49,7 @@ namespace CLHE_Algorithm
 
         static double alpha = 2.0f;
         const int histSize = 256;
-        static ulong clipLimit = 1;
+        static int clipLimit = 1;
 
 
         /// <summary>
@@ -70,14 +70,14 @@ namespace CLHE_Algorithm
         /// <param name="image"> Origin image</param>
         /// <param name="colorValues"> Matrix of saved origin color channel values</param>
         /// <returns> int array as histogram</returns>
-        private static ulong[] MakeHistogram(Bitmap image, YCbCr[][] colorValues)
+        private static int[] MakeHistogram(Bitmap image, YCbCr[][] colorValues)
         {
-            ulong x;
+            int x;
 
-            ulong[] histogram = new ulong[histSize];
-            for (ulong y = 0; y < (ulong)image.Height; y++)
+            int[] histogram = new int[histSize];
+            for (int y = 0; y < image.Height; y++)
             {
-                for (x = 0; x < (ulong)image.Width; x++)
+                for (x = 0; x < image.Width; x++)
                 {
                     YCbCr colorValue = colorValues[y][x];
                     histogram[colorValue.Y]++;
@@ -93,13 +93,13 @@ namespace CLHE_Algorithm
         /// Redistribute histogram values, using clip limt
         /// </summary>
         /// <param name="histogram"> Origin histogram </param>
-        private static void RedistributeHistogram(ref ulong[] histogram)
+        private static void RedistributeHistogram(ref int[] histogram)
         {
-            ulong excesses = 0;
+            int excesses = 0;
 
             for (int i = 0; i < histSize; i++)
             {
-                ulong curExcess = histogram[i] - clipLimit;
+                int curExcess = histogram[i] - clipLimit;
                 if (curExcess > 0) excesses += curExcess;
             }
 
@@ -113,30 +113,30 @@ namespace CLHE_Algorithm
                 {
                     if (histogram[i] > upperLimit)
                     {
-                        excesses -= histogram[i] - (ulong)upperLimit;
-                        histogram[i] = (ulong)upperLimit;
+                        excesses -= histogram[i] - (int)upperLimit;
+                        histogram[i] = (int)upperLimit;
                     }
                     else
                     {
-                        excesses -= (ulong)binIncrement;
-                        histogram[i] += (ulong)binIncrement;
+                        excesses -= (int)binIncrement;
+                        histogram[i] += (int)binIncrement;
                     }
                 }
             }
 
-            ulong oldExcesses = 0;
+            int oldExcesses = 0;
 
             do
             {
-                ulong end = histSize - 1, start = 0;
+                int end = histSize - 1, start = 0;
                 oldExcesses = excesses;
 
                 while (excesses > 0 && start < end)
                 {
-                    ulong stepSize = histSize / excesses;
+                    int stepSize = histSize / excesses;
                     if (stepSize < 1) stepSize = 1;
 
-                    for (ulong i = start; i < end && excesses > 0; i += stepSize)
+                    for (int i = start; i < end && excesses > 0; i += stepSize)
                     {
                         if (histogram[i] < clipLimit)
                         {
@@ -159,11 +159,11 @@ namespace CLHE_Algorithm
         /// <param name="height"> Image height</param>
         /// <param name="width"> Image width </param>
         /// <returns></returns>
-        private static byte[] Equalization(ulong[] histogram, ulong height, ulong width)
+        private static byte[] Equalization(int[] histogram, int height, int width)
         {
-            ulong n = width * height;
+            int n = width * height;
 
-            ulong[] cdf = histogram;
+            int[] cdf = histogram;
 
             for (int i = 1; i < histSize; i++)
                 cdf[i] += cdf[i - 1];
@@ -189,16 +189,16 @@ namespace CLHE_Algorithm
 
             BitmapData imageData = image.LockBits(new Rectangle(0, 0, image.Width, image.Height), ImageLockMode.ReadOnly, image.PixelFormat);
 
-            ulong bytesPerPixel = (ulong)Image.GetPixelFormatSize(image.PixelFormat) / 8;
+            int bytesPerPixel = Image.GetPixelFormatSize(image.PixelFormat) / 8;
             byte* pixelPointer = (byte*)imageData.Scan0.ToPointer();
 
-            ulong x;
-            for (ulong y = 0; y < (ulong)image.Height; y++)
+            int x;
+            for (int y = 0; y < image.Height; y++)
             {
                 colorValues[y] = new YCbCr[(ulong)image.Width];
-                for (x = 0; x < (ulong)image.Width; x++)
+                for (x = 0; x < image.Width; x++)
                 {
-                    ulong index = y * (ulong)imageData.Stride + x * bytesPerPixel;
+                    int index = y * imageData.Stride + x * bytesPerPixel;
 
                     byte blue = pixelPointer[index];
                     byte green = pixelPointer[index + 1];
@@ -221,25 +221,25 @@ namespace CLHE_Algorithm
         private unsafe static Image ApplyCLHE(Bitmap image)
         {
             YCbCr[][] colorValues = SaveColorValues(image);
-            clipLimit = (ulong)(Math.Ceiling(alpha * image.Width * image.Height / histSize));
-            ulong[] hist = MakeHistogram(image, colorValues);
+            clipLimit = (int)(Math.Ceiling(alpha * image.Width * image.Height / histSize));
+            int[] hist = MakeHistogram(image, colorValues);
             RedistributeHistogram(ref hist);
-            byte[] lut = Equalization(hist, (ulong)image.Height, (ulong)image.Width);
+            byte[] lut = Equalization(hist, image.Height, image.Width);
 
             BitmapData imageData = image.LockBits(new Rectangle(0, 0, image.Width, image.Height), ImageLockMode.WriteOnly, image.PixelFormat);
 
-            ulong bytesPerPixel = (ulong)Image.GetPixelFormatSize(image.PixelFormat) / 8;
+            int bytesPerPixel = Image.GetPixelFormatSize(image.PixelFormat) / 8;
             byte* pixelPointer = (byte*)imageData.Scan0.ToPointer();
 
-            ulong x;
-            for (ulong y = 0; y < (ulong)image.Height; ++y)
+            int x;
+            for (int y = 0; y < image.Height; ++y)
             {
-                for (x = 0; x < (ulong)image.Width; ++x)
+                for (x = 0; x < image.Width; ++x)
                 {
                     colorValues[y][x].Y = lut[colorValues[y][x].Y];
                     colorValues[y][x].TransformToRGB();
 
-                    ulong index = y * (ulong)imageData.Stride + x * bytesPerPixel;
+                    int index = y * imageData.Stride + x * bytesPerPixel;
 
                     pixelPointer[index] = colorValues[y][x].B;
                     pixelPointer[index + 1] = colorValues[y][x].G;
