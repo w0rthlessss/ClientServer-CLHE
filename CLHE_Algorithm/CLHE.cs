@@ -218,11 +218,12 @@ namespace CLHE_Algorithm
         /// </summary>
         /// <param name="image"></param>
         /// <returns> adjusted image </returns>
-        private unsafe static Image ApplyCLHE(Bitmap image)
+        private unsafe static Image ApplyCLHE(Bitmap image, ref int[] origHist, ref int[] adjHist)
         {
             YCbCr[][] colorValues = SaveColorValues(image);
             clipLimit = (int)(Math.Ceiling(alpha * image.Width * image.Height / histSize));
             int[] hist = MakeHistogram(image, colorValues);
+            origHist = (int[])hist.Clone();
             RedistributeHistogram(ref hist);
             byte[] lut = Equalization(hist, image.Height, image.Width);
 
@@ -249,24 +250,27 @@ namespace CLHE_Algorithm
 
             image.UnlockBits(imageData);
 
+            adjHist = MakeHistogram(image, colorValues);
+
             return image;
         }
-
 
         /// <summary>
         /// Entry function to algorithm
         /// </summary>
-        /// <param name="originData"> image as byte array</param>
-        /// <param name="a"> floating point value for calculating clip limit</param>
+        /// <param name="originData"> image as byte array </param>
+        /// <param name="a"> floating point value for calculating clip limit </param>
+        /// <param name="origHist"> array of original histogram </param>
+        /// <param name="adjHist"> array of adjusted histogram </param>
         /// <returns> byte array of adjusted image </returns>
-        public static byte[] StartCLHE(byte[] originData, double a)
+        public static byte[] StartCLHE(byte[] originData, double a, ref int[] origHist, ref int[]adjHist)
         {
             alpha = a;
 
             if (alpha < 1) return originData;
 
             Bitmap originImage = (Bitmap)ConvertByteArrayToBitmap(originData);
-            Image adjustedImage = ApplyCLHE(originImage);
+            Image adjustedImage = ApplyCLHE(originImage, ref origHist, ref adjHist);
 
             using(var ms = new MemoryStream())
             {

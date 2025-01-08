@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C493E5B2-AD52-4BCD-9B3D-2E9312A7B0ED}|BrightnessAdjustmentClient.csproj|c:\\semesterfifth\\clientserver clhe\\brightnessadjustmentclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C493E5B2-AD52-4BCD-9B3D-2E9312A7B0ED}|BrightnessAdjustmentClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C493E5B2-AD52-4BCD-9B3D-2E9312A7B0ED}|BrightnessAdjustmentClient.csproj|c:\\semesterfifth\\clientserver clhe\\brightnessadjustmentclient\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C493E5B2-AD52-4BCD-9B3D-2E9312A7B0ED}|BrightnessAdjustmentClient.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 285,
+          "DockedWidth": 318,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -33,7 +37,7 @@
               "ToolTip": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentClient\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T18:57:10.277Z",
+              "WhenOpened": "2024-12-25T01:52:08.845Z",
               "EditorCaption": ""
             },
             {
@@ -44,9 +48,28 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentClient\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAACJAAAA",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAmwFYBAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:57:10.118Z",
+              "WhenOpened": "2024-12-24T02:13:56.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 252,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentClient\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentClient\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-25T00:34:55.849Z",
               "EditorCaption": ""
             }
           ]

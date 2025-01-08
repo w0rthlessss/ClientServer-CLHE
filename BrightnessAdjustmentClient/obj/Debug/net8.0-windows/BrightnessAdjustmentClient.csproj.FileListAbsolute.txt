@@ -19,3 +19,7 @@ C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-w
 C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-windows\BrightnessAdjustmentClient.pdb
 C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-windows\BrightnessAdjustmentClient.genruntimeconfig.cache
 C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-windows\ref\BrightnessAdjustmentClient.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-windows\BrightnessAdjustmentClient.csproj.AssemblyReference.cache
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\obj\Debug\net8.0-windows\Brightne.17EDDEA2.Up2Date
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Debug\net8.0-windows\System.Drawing.Common.dll

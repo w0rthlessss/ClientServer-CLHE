@@ -5,10 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BrightnessAdjustmentClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1200" Width="1200">
+        Title="MainWindow" Height="1080" Width="1920" Background="#FF595959">
     <Grid>
-        <Image x:Name="original" Width="550" Height="600" Margin="4,3,646,631"/>
-        <Image x:Name="adjusted" Width="550" Height="600" Margin="650,3,0,581"/>
-        <Button x:Name="open" VerticalAlignment="Bottom" Height="48" Content="Open"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border x:Name="SidePanelBorder" Grid.Column="1" Grid.RowSpan="3" BorderThickness="4,0,0,0" BorderBrush="Black"/>
+
+        <Border x:Name="OpenBtnBorder" Grid.Column="1" Grid.Row="2">
+            <UniformGrid Columns="2" Rows="1">
+                <Border x:Name="OpenImageBtn"  Background="WhiteSmoke"  VerticalAlignment="Center" BorderThickness="3" BorderBrush="Black"  Margin="40,0,20,0"  CornerRadius="10" Cursor="Hand">
+                    <Label Content="Открыть" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"/>
+                </Border>
+                <Border x:Name="SaveImageBtn"  Background="WhiteSmoke"  VerticalAlignment="Center" BorderThickness="3" BorderBrush="Black"  Margin="20,0,40,0" CornerRadius="10">
+                    <Label Content="Сохранить" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"/>
+                </Border>
+            </UniformGrid>
+        </Border>
+        <Border x:Name="HistBorder" Grid.Column="1" Grid.Row="1" BorderThickness="0,0,0,4" BorderBrush="Black">
+            <DockPanel>
+                <DockPanel DockPanel.Dock="Top" Margin="40,20,40,0">
+                    <Label Content="Исходная гистограмма яркости" Foreground="#FFFFFF" DockPanel.Dock="Top" FontSize="14"/>
+                    <Label Content="Нормализованная гистограмма яркости" Foreground="#FF00FF00" DockPanel.Dock="Right" HorizontalAlignment="Left" FontSize="14"/>
+                </DockPanel>
+                
+                
+                <Border x:Name="Apply" DockPanel.Dock="Bottom" Background="WhiteSmoke" BorderBrush="Black" BorderThickness="2" CornerRadius="10" Margin="100,0,100,20">
+                    <Label Content="Нормализовать" HorizontalAlignment="Center" FontSize="14"/>
+                </Border>
+                <DockPanel DockPanel.Dock="Bottom" Margin="40,20,40,20">
+                    <Label Content="Параметр ограничения α:" DockPanel.Dock="Left" Foreground="White" FontSize="13"/>
+
+                    <TextBox x:Name="SliderValueTextBox" Width="40" Background="#FF4A4A4A" BorderThickness="2" BorderBrush="White" HorizontalAlignment="Right" Margin="5,0,0,0" DockPanel.Dock="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" IsReadOnly="True" Text="1.0"/>
+                    <Slider x:Name="AlphaSlider" Minimum="1" Maximum="5" Margin="5"  IsSnapToTickEnabled="True" TickFrequency="0.1"/>
+                </DockPanel>
+                <Canvas x:Name="HistogramCanvas" Background="#FF6d6d6d" Margin="40,10,40,40" DockPanel.Dock="Bottom"/>
+            </DockPanel>
+            
+        </Border>
+
+        <Border x:Name="ImagePreviewBorder" Grid.Column="1" Grid.Row="0" BorderThickness="0,0,0,4" BorderBrush="Black">
+            <StackPanel Margin="40" VerticalAlignment="Top">
+                <DockPanel>
+                    <Label Foreground="White" FontSize="14" Content="Имя файла:"/>
+                    <Label x:Name="imageName" Foreground="White" FontSize="14" />
+                </DockPanel>
+                <DockPanel>
+                    <Label Foreground="White" FontSize="14" Content="Размер файла:"/>
+                    <Label x:Name="imageSize" Foreground="White" FontSize="14" />
+                </DockPanel>
+                <DockPanel>
+                    <Label Foreground="White" FontSize="14" Content="Разрешение:"/>
+                    <Label x:Name="imageRes" Foreground="White" FontSize="14" />
+                </DockPanel>
+                <DockPanel>
+                    <Label Foreground="White" FontSize="14" Content="Формат цвета:"/>
+                    <Label x:Name="imageColorSize" Foreground="White" FontSize="14" />
+                </DockPanel>
+                
+                
+            </StackPanel>
+        </Border>
+
+        <Border x:Name="MainBorder" Grid.Column="0" Grid.RowSpan="3" >
+            <Border x:Name="ImageArea" Margin="50" Background="#FF4A4A4A">
+                <Image x:Name="ImagePlaceholder" Margin="20"/>
+            </Border>
+
+        </Border>
     </Grid>
 </Window>
