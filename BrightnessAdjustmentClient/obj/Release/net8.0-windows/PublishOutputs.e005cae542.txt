@@ -1,0 +1,6 @@
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\BrightnessAdjustmentClient.exe
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\BrightnessAdjustmentClient.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\BrightnessAdjustmentClient.deps.json
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\BrightnessAdjustmentClient.runtimeconfig.json
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\BrightnessAdjustmentClient.pdb
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\publish\System.Drawing.Common.dll

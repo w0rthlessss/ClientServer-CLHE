@@ -1,0 +1,7 @@
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\BrightnessAdjustmentClient.pdb
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\D3DCompiler_47_cor3.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\PenImc_cor3.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\PresentationNative_cor3.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\vcruntime140_cor3.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\wpfgfx_cor3.dll
+C:\SemesterFifth\ClientServer CLHE\BrightnessAdjustmentClient\bin\Release\net8.0-windows\win-x64\app.publish\BrightnessAdjustmentClient.exe

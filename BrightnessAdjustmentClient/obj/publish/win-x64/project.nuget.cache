@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "5rpOsyjJ+uOPL151P5U+0iIV4RP5q5lRjDudHAmIr+9ZSwI25hX4ZSbmhOG798KO0Ao2zlpq/MBuiE08qgSq+w==",
+  "success": true,
+  "projectFilePath": "C:\\SemesterFifth\\ClientServer CLHE\\BrightnessAdjustmentClient\\BrightnessAdjustmentClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\system.drawing.common\\8.0.10\\system.drawing.common.8.0.10.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.4\\microsoft.netcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\mrkub\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.win-x64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

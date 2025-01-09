@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrightnessAdjustmentServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c0b32694c81cbcd61c66fb5346627b7ebf9c7af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9c93a208da907f64b6ee198d6e30404b5cb1f1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrightnessAdjustmentServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrightnessAdjustmentServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
